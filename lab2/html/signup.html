@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Registration Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="../javascript/javascript.js"></script>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<div class="header">
+		<h1>Kedai Nasi Ayam</h1>
+	</div>
+	
+
+	<div class="main">
+		
+		<div class="container">
+			<form name="registerForm" action="../php/register.php" onsubmit="return validateRegForm()" method="post">
+				<div class="row">
+					<div class="col-25">
+						<label for="fname">Username</label>
+					</div>
+					<div class="col-75">
+						<input type="text" id="idusername" name="username" placeholder="Your username..">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-25">
+						<label for="lphone">Phone</label>
+					</div>
+					<div class="col-75">
+						<input type="tel" id="idphone" name="phone" placeholder="Your phone number..">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-25">
+						<label for="lpassword">Password</label>
+					</div>
+					<div class="col-75">
+						<input type="password" id="idpass" name="passworda" placeholder="Your password..">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-25">
+						<label for="lpassword">Password</label>
+					</div>
+					<div class="col-75">
+						<input type="password" id="idpassb" name="passwordb" placeholder="Re-enter password">
+					</div>
+				</div>
+				<div class="row">
+					<div><input type="submit" value="Submit"></div>
+				</div>
+				<p>Already have an account? <a href="login.html">Login here</a>.</p>
+			</form>
+
+		</div>
+
+
+	</div>
+
+
+	<div class="footer">
+		<p></p>
+	  </div>
+
+</body>
+
+</html>

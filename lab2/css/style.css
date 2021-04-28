@@ -1,0 +1,116 @@
+
+.header {
+    padding: 25px;
+    text-align: center;
+    background: #387D14;
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+    background-color: #387D14;
+    color: white;
+    text-align: center;
+}
+
+.main{ 
+    width: 350px; 
+    padding: 20px; 
+    
+}
+
+.topnavbar {
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+
+.topnavbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Right-aligned link */
+
+.topnavbar a.right {
+    float: right;
+}
+
+/* Change color on hover */
+
+.topnavbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnavbar .icon {
+    display: none;
+  }
+
+input[type=text], input[type=tel], input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+textarea {
+    max-width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #1abc9c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    width: 100%;
+}
+
+button[type=submit] {
+    background-color: #1abc9c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=search] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+    background-color: #1a977e;
+}
+
+.col-25 {
+    float: left;
+    width: 30%;
+}
+
+.col-75 {
+    float: left;
+    width: 70%;
+}
+

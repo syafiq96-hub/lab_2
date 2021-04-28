@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Login Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="../javascript/javascript.js"></script>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body onload="loadCookies()">
+	<div class="header">
+		<h1>Kedai Nasi Ayam Syed</h1>	
+	</div>
+	
+	<div class="main">
+	
+		<div class="container">
+			<form name="loginForm" action="../php/login.php" onsubmit="return validateLoginForm()" method="post">
+				<div class="row">
+					<div class="col-25">
+						<label for="femail">Username</label>
+					</div>
+					<div class="col-75">
+						<input type="text" id="idusername" name="username" placeholder="Your username..">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-25">
+						<label for="lname">Password</label>
+					</div>
+					<div class="col-75">
+						<input type="password" id="idpass" name="password" placeholder="Your password..">
+					</div>
+				</div>
+				<div class="row">
+					<input type="submit" value="Submit">
+				</div>
+				<p>Don't have an account? <a href="signup.html">Sign up now</a>.</p>
+			</form>
+		</div>
+
+
+	</div>
+
+	<div class="footer">
+		<p></p>
+	  </div>
+
+</body>
+
+</html>
